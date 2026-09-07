@@ -1,0 +1,6 @@
+/* Small visual overrides; Voiceflow manages the conversation and accessibility. */
+.vfrc-widget,.vfrc-chat{font-family:Arial,sans-serif}
+.vfrc-button:focus-visible,.vfrc-launcher:focus-visible{outline:3px solid #759eff;outline-offset:3px}
+textarea.vfrc-chat-input:disabled{opacity:.5;cursor:default;caret-color:transparent}
+#vfrc-send-message:disabled{opacity:.4;cursor:default}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
